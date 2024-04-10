@@ -1,0 +1,63 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "lint": "npm-run-all --parallel -c lint:*",
+    "lint:stylelint": "stylelint **/*.vue",
+    "lint:eslint": "eslint --ext .vue src/",
+    "fix": "npm-run-all --parallel -c fix:*",
+    "fix:stylelint": "stylelint --fix **/*.vue",
+    "fix:eslint": "eslint --fix --ext .vue src",
+    "deploy": "cd dist && rsync --archive --compress --delete .. polytech@3.126.153.92:/home/polytech/school",
+    "prepare": "cd .. && husky install"
+  },
+  "dependencies": {
+    "pinia": "^2.0.32",
+    "vue": "^3.2.47",
+    "vue-inline-svg": "^3.1.2",
+    "vue-router": "^4.1.6",
+    "vue-scrollto": "^2.20.0",
+    "vue-svg-inline-plugin": "^2.2.3",
+    "vue-yandex-maps": "^0.12.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/test-utils": "^2.3.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-stylelint": "^18.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.10.0",
+    "husky": "^8.0.3",
+    "jsdom": "^21.1.0",
+    "lint-staged": "^13.2.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "2.8.7",
+    "sass": "^1.62.0",
+    "sass-loader": "^13.2.2",
+    "style-resources-loader": "^1.5.0",
+    "stylelint": "^15.4.0",
+    "stylelint-config-recommended-scss": "^10.0.0",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard-scss": "^8.0.0",
+    "stylelint-order": "^6.0.3",
+    "vite": "^4.3.5",
+    "vitest": "^0.29.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.vue": [
+      "npm run lint:stylelint",
+      "npm run lint:eslint"
+    ]
+  }
+}

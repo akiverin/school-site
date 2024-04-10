@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Сообщения",
+    "path": "icons/mail.svg",
+    "link": "messages",
+    "count": 4,
+    "active": true
+  },
+  {
+    "title": "Электронный дневник",
+    "path": "icons/diary.svg",
+    "link": "diary",
+    "count": 0,
+    "active": true
+  },
+  {
+    "title": "Объявления",
+    "path": "icons/notification.svg",
+    "link": "notification",
+    "count": 2,
+    "active": true
+  },
+  {
+    "title": "Учащиеся",
+    "path": "icons/students.svg",
+    "link": "students",
+    "count": 0,
+    "active": true
+  },
+  {
+    "title": "Учителя и руководство",
+    "path": "icons/administration.svg",
+    "link": "administration",
+    "count": 0,
+    "active": true
+  },
+  {
+    "title": "Настройки",
+    "path": "icons/settings.svg",
+    "link": "settings",
+    "count": 0,
+    "active": true
+  },
+  {
+    "title": "Платные услуги",
+    "path": "icons/payable.svg",
+    "link": "payable",
+    "count": 0,
+    "active": true
+  },
+  {
+    "title": "Портфолио",
+    "path": "icons/portfolio.svg",
+    "link": "portfolio",
+    "count": 0,
+    "active": true
+  },
+  {
+    "title": "Электронная библиотека",
+    "path": "icons/library.svg",
+    "link": "digital-library",
+    "count": 0,
+    "active": true
+  },
+  {
+    "title": "Клубы и секции",
+    "path": "icons/clubs.svg",
+    "link": "clubs",
+    "count": 0,
+    "active": true
+  },
+  {
+    "title": "Экзамены",
+    "path": "icons/exams.svg",
+    "link": "exams",
+    "count": 0,
+    "active": false
+  },
+  {
+    "title": "Зачисление",
+    "path": "icons/admission.svg",
+    "link": "entrance",
+    "count": 0,
+    "active": false
+  }
+]

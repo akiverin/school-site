@@ -1,0 +1,32 @@
+[
+  {
+    "heading": "Как стать успешным?",
+    "text": "Рост и развитие в своей сфере",
+    "image": "images/SchoolLife/SchoolLifeLecture1.svg"
+  },
+  {
+    "heading": "Интернет в обучении",
+    "text": "Как правильно искать информацию в сети?",
+    "image": "images/SchoolLife/SchoolLifeLecture2.svg"
+  },
+  {
+    "heading": "Планирование",
+    "text": "Как распланировать свой день правильно?",
+    "image": "images/SchoolLife/SchoolLifeLecture3.svg"
+  },
+  {
+    "heading": "Доклады и презентации",
+    "text": "Как и где их нужно делать?",
+    "image": "images/SchoolLife/SchoolLifeLecture4.svg"
+  },
+  {
+    "heading": "Учись правильно!",
+    "text": "Как повысить свою продуктивность?",
+    "image": "images/SchoolLife/SchoolLifeLecture5.svg"
+  },
+  {
+    "heading": "Коммуникации вокруг нас",
+    "text": "Учимся общаться и вести переписку",
+    "image": "images/SchoolLife/SchoolLifeLecture6.svg"
+  }
+]
